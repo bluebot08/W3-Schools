@@ -27,14 +27,45 @@
       an image.
     </p>
 
-    <button onclick="document.getElementById('myImage').src='images/gastly.png'">
+    <button
+      onclick="document.getElementById('myImage').src='images/gastly.png'"
+    >
       Devolve the pokemon!
     </button>
 
     <img id="myImage" src="images/haunter.png" />
 
-    <button onclick="document.getElementById('myImage').src='images/gengar.png'">
+    <button
+      onclick="document.getElementById('myImage').src='images/gengar.png'"
+    >
       Evolve the pokemon!
+    </button>
+
+    <h2>What Can JavaScript Do?</h2>
+
+    <p id="demo2">JavaScript can change the style of an HTML element</p>
+
+    <button
+      type="button"
+      onclick="document.getElementById('demo2').style.fontSize='35px'"
+    >
+      Click Me!
+    </button>
+
+    <h2>JavaScript Can Hide and Show HTML Elements</h2>
+    <p id="demo3">Hello World!</p>
+
+    <button
+      type="button"
+      onclick="document.getElementById('demo3').style.display = 'none'"
+    >
+      Click to Hide!
+    </button>
+    <button
+      type="button"
+      onclick="document.getElementById('demo3').style.display = 'block'"
+    >
+      Click to Show!
     </button>
   </body>
 </html>
