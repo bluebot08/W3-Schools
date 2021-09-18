@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Output</title>
+    <script src="myScript.js"></script>
+  </head>
+
+  <body>
+    <h1>JavaScript Display Possibilities</h1>
+    <h2>JavaScript Can "Display" Data in Different Ways</h2>
+    <ul>
+      <li>Writing into an HTML element, using innerHTML.</li>
+      <li>Writing into the HTML output using document.write().</li>
+      <li>Writing into an alert box, using window.alert().</li>
+      <li>Writing into the browser console, using console.log().</li>
+    </ul>
+
+    <h2>Using innerHTML</h2>
+
+    <h1>My First Web Page</h1>
+    <p>My First Paragraph</p>
+    <p id="innerHTMLDemo"></p>
+
+    <button type="button" onclick="innerHTMLFunction()">Click Me!</button>
+
+    <h2>Using document.write()</h2>
+    <p>For testing purposes, it is convenient to use document.write()</p>
+    <script>
+      document.write("Written using document.write()");
+    </script>
+
+    <p>
+      Using document.write() after an HTML document is loaded, will
+      <strong>delete all existing HTML</strong>
+    </p>
+
+    <button type="button" onclick="documentwrite()">
+      Press me to delete all content
+    </button>
+  </body>
+</html>
