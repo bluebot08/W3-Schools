@@ -11,3 +11,7 @@ function welcomeAlert() {
     "Welcome to a page describng all the JavaScript display possibilities."
   );
 }
+
+function consolelog() {
+  console.log("Can you see me?");
+}
