@@ -3,5 +3,11 @@ function innerHTMLFunction() {
     "This was shown using innerHTML";
 }
 function documentwrite() {
-  document.write("Congrats, you destroyed everything");
+  document.write("Congrats, you destroyed everything.");
+}
+
+function welcomeAlert() {
+  alert(
+    "Welcome to a page describng all the JavaScript display possibilities."
+  );
 }
